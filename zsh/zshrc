@@ -1,0 +1,14 @@
+export ZSH="/Users/ugosan/.oh-my-zsh"
+ZSH_THEME="ugo"
+plugins=(
+    git,
+	virtualenv 
+)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+alias ll="ls -lah"
+alias t="tail -f"
