@@ -1,8 +1,8 @@
-export ZSH="/Users/ugosan/.oh-my-zsh"
+export ZSH="/root/.oh-my-zsh"
 ZSH_THEME="ugo"
 plugins=(
     git,
-	virtualenv 
+    virtualenv 
 )
 
 source $ZSH/oh-my-zsh.sh
