@@ -32,7 +32,7 @@ local current_dir="%B%F{cyan}%~%f%b"
 local git_branch='$(git_prompt_info)'
 local virtualenv='${VIRTUAL_ENV}'
 
-PROMPT="╭─${user_host} ${current_dir} ${git_branch} ${virtualenv}
+PROMPT="╭─[${user_host}] ${current_dir} ${git_branch} ${virtualenv}
 ╰─$PR_PROMPT "
 RPROMPT="${return_code}"
 
