@@ -1,3 +1,4 @@
 set syntax=ruby
+set expandtab
 set tabstop=4
 set background=dark
